@@ -1,0 +1,94 @@
+.cbutton-group > .cbutton:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.cbutton-group > .cbutton:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.cbutton {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Primary Simple */
+.cprimary {
+  color: #fff;
+  background-color: #007bff;
+}
+/* Outline */
+.cprimary-outline {
+  color: #007bff;
+  border-color: #007bff;
+}
+.cprimary-outline:hover {
+  color: #fff;
+  border-color: #007bff;
+  background-color: #007bff;
+}
+/* Active */
+.cprimary.active,
+.cprimary-outline.active {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+/* Danger Simple */
+.cdanger {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+/* Outline */
+.cdanger-outline {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+.cdanger-outline:hover {
+  color: #fff;
+  border-color: #dc3545;
+  background-color: #dc3545;
+}
+.cdanger.active,
+.cdanger-outline.active {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+/* Success Simple */
+.csuccess {
+  color: #fff;
+  background-color: #28a745;
+}
+/* Outline */
+.csuccess-outline {
+  color: #28a745;
+  border-color: #28a745;
+}
+.csuccess-outline:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.csuccess.active,
+.csuccess-outline.active {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}

@@ -1,0 +1,36 @@
+#todo-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: var(--todo-bg-color);
+}
+#todo-container .heading {
+  color: var(--dash-bg-color);
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.list-group-custom {
+  display: flex;
+  align-items: center;
+}
+.todo-summary {
+  border-bottom: 2px dotted var(--todo-bg-color);
+}
+
+.todo-summary div:nth-child(odd) {
+  flex: 1;
+}
+.todo-summary div:nth-child(even) {
+  flex: 2;
+}
+.todo-text {
+  flex: 1;
+}
+.todo-action {
+  cursor: pointer;
+}
+.todo-complete {
+  text-decoration: line-through;
+  color: #4b4f56;
+  font-style: italic;
+}

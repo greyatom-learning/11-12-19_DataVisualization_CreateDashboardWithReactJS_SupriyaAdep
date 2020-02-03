@@ -1,0 +1,14 @@
+#dash-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: var(--dash-bg-color);
+}
+#dash-container .heading {
+  color: var(--todo-bg-color);
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.chart-container {
+  height: 70%;
+}
